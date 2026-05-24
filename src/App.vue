@@ -72,7 +72,7 @@
             <span class="result-value">{{ account }}</span>
           </div>
           <div class="result-row">
-            <span class="result-label">密码</span>
+            <span class="result-label">您的密码</span>
             <span class="result-value password">*********</span>
           </div>
         </div>
@@ -488,9 +488,8 @@ body {
 }
 
 .result-value.password {
-  color: #ffd200;
-  font-size: 20px;
-  letter-spacing: 3px;
+  font-size: 18px;
+  letter-spacing: 2px;
 }
 
 .disclaimer-box {
@@ -503,7 +502,7 @@ body {
   border-radius: 8px;
   padding: 10px 16px;
   margin-bottom: 20px;
-  font-size: 14px;
+  font-size: 16px;
   color: #ffaa00;
   font-weight: 500;
 }
